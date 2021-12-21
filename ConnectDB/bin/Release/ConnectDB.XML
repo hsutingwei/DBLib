@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConnectDB</name>
+    </assembly>
+    <members>
+        <member name="T:ConnectDB.ConNPGDB">
+            <summary>
+            PostgreSQL操作
+            </summary>
+        </member>
+        <member name="F:ConnectDB.ConNPGDB.conDbStr">
+            <summary>
+            設定DB連結字串
+            </summary>
+        </member>
+        <member name="M:ConnectDB.ConNPGDB.InitConnAndSetSQL(System.String)">
+            <summary>
+            建立(初始化)與DB的連結物件
+            </summary>
+            <param name="sqlStr">SQL字串</param>
+        </member>
+        <member name="M:ConnectDB.ConNPGDB.SetOrReSetParameter(Npgsql.NpgsqlParameter[])">
+            <summary>
+            設定/重設SQL的參數
+            </summary>
+            <param name="ParameterArray"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ConnectDB.ConNPGDB.DoSqlAndGetResultToList" -->
+        <member name="M:ConnectDB.ConNPGDB.DoSqlAndGetResultToDataTable">
+            <summary>
+            執行SQL語句並取得回傳值(DataTable)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConnectDB.ConNPGDB.CloseConn">
+            <summary>
+            關閉釋放DB的連結物件
+            </summary>
+        </member>
+        <member name="T:ConnectDB.ConODB">
+            <summary>
+            SQL Server操作
+            </summary>
+        </member>
+        <member name="F:ConnectDB.ConODB.conDbStr">
+            <summary>
+            設定DB連結字串
+            </summary>
+        </member>
+        <member name="M:ConnectDB.ConODB.InitConnAndSetSQL(System.String)">
+            <summary>
+            建立(初始化)與DB的連結物件
+            </summary>
+            <param name="sqlStr">SQL字串</param>
+        </member>
+        <member name="M:ConnectDB.ConODB.SetOrReSetParameter(Oracle.ManagedDataAccess.Client.OracleParameter[])">
+            <summary>
+            設定/重設SQL的參數
+            </summary>
+            <param name="ParameterArray"></param>
+        </member>
+        <member name="M:ConnectDB.ConODB.DoSqlAndGetResultToList">
+            <summary>
+            執行SQL語句並取得回傳值(List string)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConnectDB.ConODB.DoSqlAndGetResultToDataTable">
+            <summary>
+            執行SQL語句並取得回傳值(DataTable)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConnectDB.ConODB.CloseConn">
+            <summary>
+            關閉釋放DB的連結物件
+            </summary>
+        </member>
+        <member name="T:ConnectDB.ConSSDB">
+            <summary>
+            SQL Server操作
+            </summary>
+        </member>
+        <member name="F:ConnectDB.ConSSDB.conDbStr">
+            <summary>
+            設定DB連結字串
+            </summary>
+        </member>
+        <member name="M:ConnectDB.ConSSDB.InitConnAndSetSQL(System.String)">
+            <summary>
+            建立(初始化)與DB的連結物件
+            </summary>
+            <param name="sqlStr">SQL字串</param>
+        </member>
+        <member name="M:ConnectDB.ConSSDB.SetOrReSetParameter(System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            設定/重設SQL的參數
+            </summary>
+            <param name="ParameterArray"></param>
+        </member>
+        <member name="M:ConnectDB.ConSSDB.DoSqlAndGetResultToList">
+            <summary>
+            執行SQL語句並取得回傳值(List string)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConnectDB.ConSSDB.DoSqlAndGetResultToDataTable">
+            <summary>
+            執行SQL語句並取得回傳值(DataTable)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConnectDB.ConSSDB.CloseConn">
+            <summary>
+            關閉釋放DB的連結物件
+            </summary>
+        </member>
+    </members>
+</doc>

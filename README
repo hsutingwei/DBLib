@@ -1,0 +1,3 @@
+2019開發
+提供連結資料庫的工具，資料庫種類含有: SQL Server、Oracle、PostgreSQL
+回傳型別: List<string>、DataTable
